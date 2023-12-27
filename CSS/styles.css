@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+	width: 100%; height: 70px; background-color:#DBC9C4 ; border-bottom:#2F2F35 1px solid; padding: 10px; }
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu{
+	padding-top: 17px;
+}
+.menu ul li a{ padding: 10px 25px; text-decoration: none; color: #3E3E3E; border-radius: 10px; font-size: 20px }
+.menu ul li a:hover{
+	background: darkred; color: white
+}
+main{ 
+	width: 100%; min-height: 600px
+}
+aside{ width: 30%; padding: 15px; min-height: 500px; 
+}
+.content{
+	width: 70%; padding: 15px;
+}
+aside ul {padding-bottom: 10px;font-size: 15px; display: flex; flex-direction: column; list-style: none; padding-left: 5px;
+}
+aside ul li a{
+	padding: 10px; display: block; text-decoration: none; color: #666666; border-bottom: 1px solid
+}
+h1{ font-size: 25px; color: darkred; font-weight: bold
+}
+aside ul li a:hover{
+	background-color: darkgoldenrod; color: aliceblue
+}
+
+.tensanpham{
+	text-align: center; font-size: 18px; margin-top: 2px; margin: 1
+}
+.tensanpham a{text-decoration: none;  font-weight: bold; color: darkred; 
+}
+.motasanpham{
+	text-align: center; font-size: 14px; margin-top: 0px
+}
+.giasanpham{
+	color: darkred
+}
+.padding10 { padding: 0px 15px
+}
+footer { width: 100%; background-color:#ECECEC
+}
+
+.noidungfooter {
+	background-color:#FF9294; padding: 20px; margin: 0; color: aliceblue; text-align: center; height: 100%;
+}
+footer a{ text-decoration: none; color: #272727
+}
+footer a:hover{ color:#4B4B4B
+}
+footer ul{ margin: 0; padding:0; display: flex; flex-direction: column; list-style: none}
+footer ul li { padding: 7px }
+/*phan mau cho nav*/
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:100px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+
+/*style cho dots*/
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+/*mau cho dots*/
+#slider .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#FC0;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+ #slider .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #4DC7A0; }
